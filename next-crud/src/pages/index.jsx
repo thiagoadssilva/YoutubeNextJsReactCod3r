@@ -4,16 +4,18 @@ import Cliente from '../core/Cliente'
 import Botao from '../components/Botao'
 import Formulario from '../components/Formulario'
 import { useState } from 'react'
+import { useEffect } from 'react'
+import ColecaoCliente from '../backend/db/ColecaoCliente'
 
-const clientes = [
-  new Cliente('Thiago', 36, '1'),
-  new Cliente('Dineia', 39, '2'),
-  new Cliente('Bento', 5, '3'),
-]
 
 export default function Home() {
   const [tabela, setTabela] = useState(true)
-  const [cliente, setCliente] = useState(Cliente.vazio)
+  const [clientes, setClientes] = useState([Cliente.vazio])
+  const ClienteRepositorio = new ColecaoCliente()
+
+  useEffect(() => {
+    ClienteRepositorio.obterTodos().then(setClientes)
+  }, [])
 
   function clienteSelecionado(clientes){
     setCliente(clientes)

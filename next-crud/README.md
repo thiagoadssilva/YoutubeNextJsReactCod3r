@@ -28,3 +28,9 @@
     npm install --save-dev @types/react typescript
 
 <hr>
+
+### Instalando o firebase
+
+    npm install firebase
+
+<hr>
