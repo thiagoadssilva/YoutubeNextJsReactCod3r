@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Abaixo está a lista das tecnologias que foram usados no desenvolvimento:
 
-## Getting Started
+<br>
 
-First, run the development server:
+### Tailwind CSS funciona verificando todos os seus arquivos HTML, componentes JavaScript e quaisquer outros modelos para nomes de classe, gerando os estilos correspondentes e, em seguida, gravando-os em um arquivo CSS estático.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Referências: https://tailwindcss.com/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<hr>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Typescript é um supertset do JavaScript que adiciona tipos, algumas pessoas chamam de linguagem, mas não muda o fato que todo código em Javascript é um código válido em Typescript
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Referências: https://blog.azagatti.dev/typescript-and-react/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<hr>
 
-## Learn More
+<hr>
 
-To learn more about Next.js, take a look at the following resources:
+### O Firebase é uma plataforma de desenvolvimento de aplicativos que ajuda você a criar e desenvolver aplicativos e jogos que os usuários amam. Com o apoio do Google e a confiança de milhões de empresas no mundo todo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Referências: https://firebase.google.com/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<hr>
